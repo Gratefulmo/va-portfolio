@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Virtual Assistant Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1581093588401-22e8d13b6b6b') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .skills, .projects, .tools {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 20px;
+    }
+    .cta {
+      background: #3b82f6;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 12px;
+      margin-top: 40px;
+    }
+    .cta a {
+      background: white;
+      color: #3b82f6;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e5e7eb;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Go-To Virtual Assistant</h1>
+    <p>Helping you stay organized, focused, and efficient.</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! I'm <strong>[Grateful]</strong>, a trained Virtual Assistant from the ALX Virtual Assistant Program. I specialize in handling the details so you can focus on growing your business. I'm tech-savvy, reliable, and passionate about productivity.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Services I Offer</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Administrative Support</h3>
+        <p>Calendar management, travel planning, email sorting, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Assistance</h3>
+        <p>Post scheduling, engagement, and content calendar creation.</p>
+      </div>
+      <div class="card">
+        <h3>Customer Communication</h3>
+        <p>Email replies, client updates, and chat support.</p>
+      </div>
+      <div class="card">
+        <h3>Task Management</h3>
+        <p>Organizing projects using Trello, Asana, and ClickUp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Sample Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h4>Inbox Overhaul</h4>
+        <p>Organized a cluttered inbox, applied filters, and set up efficient systems.</p>
+      </div>
+      <div class="card">
+        <h4>Social Media Plan</h4>
+        <p>Created a 7-day content calendar with visuals and captions using Canva.</p>
+      </div>
+      <div class="card">
+        <h4>Data Entry Task</h4>
+        <p>Compiled and formatted business data using Google Sheets and formulas.</p>
+      </div>
+      <div class="card">
+        <h4>Market Research</h4>
+        <p>Delivered a report with findings and insights based on online research.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Tools I Use</h2>
+    <div class="tools">
+      <div class="card">Google Workspace</div>
+      <div class="card">Slack & Zoom</div>
+      <div class="card">Trello, Asana & ClickUp</div>
+      <div class="card">Canva</div>
+      <div class="card">Calendly</div>
+      <div class="card">Notion</div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Let’s Work Together!</h2>
+    <p>I'm ready to help you save time, reduce stress, and get organized. Book a free discovery call today!</p>
+    <a href="#">Schedule a Call</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [Grateful Obidike] – Virtual Assistant Portfolio</p>
+  </footer>
+</body>
+</html>
+
